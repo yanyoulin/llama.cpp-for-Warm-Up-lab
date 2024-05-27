@@ -33,12 +33,12 @@
 | TinyLlama-1.1B-Chat-v1.0-Q8          | 5/10     |
 
 ### Questions
-* What problems you encountered? How you solve it?\n
-  1.Google Colab and Google Drive:\n
-    I used my own Google Drive rather than school account initially, so I encountered like not enough space for downloading model.\n
-    So I decided to copy my code to school account and run again. Kinda stupid but ya, this is a problem I met.\n
-    And due to the mechanism of google colab, I need to connect to my drive everytime I change runtime type or I leave colab too long.\n
-    Sometime I forgot this and cause some error. And some commands also needed to run everytime I open colab, it's kinda annoying.\n
+* What problems you encountered? How you solve it?  
+  1.Google Colab and Google Drive:  
+    I used my own Google Drive rather than school account initially, so I encountered like not enough space for downloading model.  
+    So I decided to copy my code to school account and run again. Kinda stupid but ya, this is a problem I met.  
+    And due to the mechanism of google colab, I need to connect to my drive everytime I change runtime type or I leave colab too long.  
+    Sometime I forgot this and cause some error. And some commands also needed to run everytime I open colab, it's kinda annoying.  
   2.Set llama.cpp
     
 * What you observed between CPU / GPU performance ?    
