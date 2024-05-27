@@ -1,4 +1,4 @@
-## Name : XXX
+## Name : 林彥佑
 
 * About throughputs , please record the Tokens / Sec of Eval Time 
 
@@ -35,12 +35,18 @@
 ### Questions
 * What problems you encountered? How you solve it?  
   1. Google Colab and Google Drive:  
-      I used my own Google Drive rather than school account initially, so I encountered like not enough space for downloading model.  
-      So I decided to copy my code to school account and run again. Kinda stupid but ya, this is a problem I met.  
-      And due to the mechanism of google colab, I need to connect to my drive everytime I change runtime type or I leave colab too long.  
-      Sometime I forgot this and cause some error. And some commands also needed to run everytime I open colab, it's kinda annoying.  
-  2. Set llama.cpp:
-    
+     I used my own Google Drive rather than school account initially, so I encountered like not enough space for downloading model.  
+     So I decided to copy my code to school account and run again. Kinda stupid but ya, this is a problem I met.  
+     And due to the mechanism of google colab, I need to connect to my drive everytime I change runtime type or I leave colab too long.  
+     Sometime I forgot this and cause some error. And some commands also needed to run everytime I open colab, it's kinda annoying.  
+  2. Set llama.cpp:  
+     I follow github to set llama, but after I had done !make, I don't know what to do next.  
+     The process of "make" to "./main" seems not write on github(or I didn't see it).
+     So I asked 曾若恩 for help, she send me this:https://medium.com/@AleNunezArroyo/run-google-gemma-llama-cpp-gguf-inference-in-google-colab-ecb1c03bc440
+     After learning this page, I solve my problem thanks to 曾若恩.
+  3. Unexecpted error:
+     As I mentioned from e-mail, maybe due to the mechanism of google colab, I found an unexpected error during runnig basic part in gpu:
+     
 * What you observed between CPU / GPU performance ?    
 * Will quantization or smaller-parameters model impact model accuracy or inference throughput ? If so , what's the variation?
 
