@@ -60,14 +60,14 @@
      In my code, I use both of way to asked it.  
 * What you observed between CPU / GPU performance ?  
   1.  GPU is running faster than CPU
-  2.  
+  2.  I saw that cpu compute buffer size is much smaller than CUDA0 compute buffer size. I'm not sure whether it cause observe1?   
 * Will quantization or smaller-parameters model impact model accuracy or inference throughput ? If so , what's the variation?
-  About accuracy: Theoretically, yes. But the result that I got shows "No".
-  I think it is a matter of probability, they are all not well trained so I have probability to get the result like this.
-  Theoretically, larger-parameters model is more accurate because of its big file size, making it low quality loss.
+  About accuracy: Theoretically, yes. But the result that I got shows "No".  
+  I think it is a matter of probability, they are all not well trained so I have probability to get the result like this.  
+  Theoretically, larger-parameters model is more accurate because of its big file size, making it low quality loss.  
   About throughput: Yes  
-  smaller-parameters model's Tokens/Sec is bigger by the result.
-  Maybe becuase of the way they convert weights and operations of GGUF models.
+  smaller-parameters model's Tokens/Sec is bigger by the result.  
+  Maybe becuase of the way they convert weights and operations of GGUF models.  
 
 
 
