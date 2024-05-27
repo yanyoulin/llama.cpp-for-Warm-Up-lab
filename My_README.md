@@ -58,8 +58,16 @@
      Before I received the mail, I found that in main help we have a interactive mode.   
      So, I decided to try it and asked it some questions then I found that I didn't need to add "answer" to let it answer my questions.   
      In my code, I use both of way to asked it.  
-* What you observed between CPU / GPU performance ?    
+* What you observed between CPU / GPU performance ?  
+  1.  GPU is running faster than CPU
+  2.  
 * Will quantization or smaller-parameters model impact model accuracy or inference throughput ? If so , what's the variation?
+  About accuracy: Theoretically, yes. But the result that I got shows "No".
+  I think it is a matter of probability, they are all not well trained so I have probability to get the result like this.
+  Theoretically, larger-parameters model is more accurate because of its big file size, making it low quality loss.
+  About throughput: Yes  
+  Larger-parameters model's Tokens/Sec is bigger by the result.
+  Maybe becuase of the way they convert weights and operations of GGUF models.
 
 
 
