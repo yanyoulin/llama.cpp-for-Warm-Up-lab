@@ -49,9 +49,15 @@
      ![image](https://github.com/yanyoulin/llama.cpp-for-Warm-Up-lab/blob/0ae4c1d346490280362ccc9d7c29cf8fed9029be/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-05-26%20002307.png)
      After deleting what I had downloaded and runnig the exactly same code again, it worked.
      Maybe really just driver version problem.
-  4. Bonus part problem:
-     I used -p command to ask model some question, but model didn't answer me but gave me some options it made like this:
-     ![image]
+  4. Bonus part problem:  
+     I used -p command to ask model some question, but model didn't answer me but gave me some options it made like this:  
+     ![image](https://github.com/yanyoulin/llama.cpp-for-Warm-Up-lab/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-05-27%20022114.png)
+     And I asked question by e-mail, thanks answering my question so quickly!  
+     Problem is I gave it poor Promt, so it think that it needed to keep generating options for me rather than answer me.
+     By adding "Answer:" at the end of the question solved this problem.
+     Before I received the mail, I found that in main help we have a interactive mode.
+     So, I decided to try it and asked it some questions then I found that I didn't need to add "answer" to let it answer my questions.
+     In my code, I use both of way to asked it.  
 * What you observed between CPU / GPU performance ?    
 * Will quantization or smaller-parameters model impact model accuracy or inference throughput ? If so , what's the variation?
 
