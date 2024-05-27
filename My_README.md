@@ -66,7 +66,7 @@
   I think it is a matter of probability, they are all not well trained so I have probability to get the result like this.
   Theoretically, larger-parameters model is more accurate because of its big file size, making it low quality loss.
   About throughput: Yes  
-  Larger-parameters model's Tokens/Sec is bigger by the result.
+  smaller-parameters model's Tokens/Sec is bigger by the result.
   Maybe becuase of the way they convert weights and operations of GGUF models.
 
 
