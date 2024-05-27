@@ -5,32 +5,32 @@
 ### Basic Challenge
 | Throughputs (Tokens/sec) | CPU      | GPU      | 
 | --------                 | -------- | -------- | 
-| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf  | XXXX     | XXXX     |
+| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf  | 9.15     | 16.46     |
 
 
 ### Medium Challenge
 | Throughputs (Tokens/sec) | CPU      | GPU      | 
 | --------                 | -------- | -------- | 
-| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf  | XXXX     | XXXX     |
-| TinyLlama-1.1B-Chat-v1.0-f16  | XXXX     | XXXX     |
+| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf  | 9.15     | 16.46     |
+| TinyLlama-1.1B-Chat-v1.0-f16  | 4.84     | 10.5     |
 
 
 
 ### Advance Challenge
 | Throughputs (Tokens/sec) | CPU      | GPU      | 
 | --------                 | -------- | -------- | 
-| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf  | XXXX     | XXXX     |
-| TinyLlama-1.1B-Chat-v1.0-f16  | XXXX     | XXXX     |
-| TinyLlama-1.1B-Chat-v1.0-Q8  | XXXX     | XXXX     |
+| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf  | 9.15    | 16.46   |
+| TinyLlama-1.1B-Chat-v1.0-f16  | 4.84     | 10.5     |
+| TinyLlama-1.1B-Chat-v1.0-Q8  | 6.49     | 12.68    |
 
 
 ### Advance Challenge
 
 |                           | Accuracy  |
 | --------                 | --------  |
-| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf | x/10     |
-| TinyLlama-1.1B-Chat-v1.0-f16         | x/10     |
-| TinyLlama-1.1B-Chat-v1.0-Q8          | x/10     |
+| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf | 5/10     |
+| TinyLlama-1.1B-Chat-v1.0-f16         | 6/10     |
+| TinyLlama-1.1B-Chat-v1.0-Q8          | 5/10     |
 
 ### Questions
 * What problems you encountered? How you solve it?
